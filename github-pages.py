@@ -1,6 +1,5 @@
 import os
 
-# Check if current directory is a Git repository
 if not os.path.exists(".git"):
     print("Initializing Git repository...")
     os.system("git init")

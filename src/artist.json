@@ -1,0 +1,92 @@
+{
+  "name": "ASCEND",
+  "albumCover": "/images/albumCovers/Ascend.png",
+  "releaseYear": "2019",
+  "tracks": [
+    {
+      "id": 1,
+      "name": "I Care",
+      "path": "/songs/I Care (Intro).m4a"
+    },
+    {
+      "id": 2,
+      "name": "Hold On ft. Georgia Ku",
+      "path": "/songs/Hold On ft. Georgia Ku.m4a"
+    },
+    {
+      "id": 3,
+      "name": "Good Things Fall Apart ft. Jon Bellion",
+      "path": "/songs/Good Things Fall Apart ft. Jon Bellion.m4a"
+    },
+    {
+      "id": 4,
+      "name": "That’s Why ft. GOLDN",
+      "path": "/songs/That’s Why ft. GOLDN.m4a"
+    },
+    {
+      "id": 5,
+      "name": "Blood ft. Foy Vance",
+      "path": "/songs/Blood ft. Foy Vance.m4a"
+    },
+    {
+      "id": 6,
+      "name": "Take You Down",
+      "path": "/songs/Take You Down.m4a"
+    },
+    {
+      "id": 7,
+      "name": "All Together ft. OEKIN",
+      "path": "/songs/All Together ft. OEKIN.m4a"
+    },
+    {
+      "id": 8,
+      "name": "Crashing ft. Bahari",
+      "path": "/songs/Crashing ft. Bahari.m4a"
+    },
+    {
+      "id": 9,
+      "name": "Broken Ones ft. Anna Clendening",
+      "path": "/songs/Broken Ones ft. Anna Clendening.m4a"
+    },
+    {
+      "id": 10,
+      "name": "Every Piece Of Me ft. ECHOS",
+      "path": "/songs/Every Piece Of Me ft. ECHOS.m4a"
+    },
+    {
+      "id": 11,
+      "name": "Takeaway ft. The Chainsmokers, Lennon Stella",
+      "path": "/songs/Takeaway ft. The Chainsmokers, Lennon Stella.m4a"
+    },
+    {
+      "id": 12,
+      "name": "Sad Songs ft. Said the Sky, Annika Wells",
+      "path": "/songs/Sad Songs ft. Said the Sky, Annika Wells.m4a"
+    },
+    {
+      "id": 13,
+      "name": "Pray ft. Kameron Alexander",
+      "path": "/songs/Pray ft. Kameron Alexander.m4a"
+    },
+    {
+      "id": 14,
+      "name": "In Your Arms ft. X Ambassadors",
+      "path": "/songs/In Your Arms ft. X Ambassadors.m4a"
+    },
+    {
+      "id": 15,
+      "name": "Gorgeous ft. Blanke, Bipolar Sunshine",
+      "path": "/songs/Gorgeous ft. Blanke, Bipolar Sunshine.m4a"
+    },
+    {
+      "id": 16,
+      "name": "Angel (Lonely Prelude)",
+      "path": "/songs/Angel (Lonely Prelude).m4a"
+    },
+    {
+      "id": 17,
+      "name": "Lonely ft. Chandler Leighton",
+      "path": "/songs/Lonely ft. Chandler Leighton.m4a"
+    }
+  ]
+}

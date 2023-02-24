@@ -1,5 +1,15 @@
 import os
 
+
+def delete_dist_lines():
+    with open('.gitignore', 'r') as gitignorefile:
+        lines = gitignorefile.readlines()
+    with open('.gitignore', 'w') as gitignorefile:
+        for line in lines:
+            if "dist" not in line and "dist-ssr" not in line:
+                gitignorefile.write(line)
+
+
 if not os.path.exists(".git"):
     print("Initializing Git repository...")
     os.system("git init")
@@ -16,15 +26,16 @@ commit_message = input("Enter a commit message: ")
 
 # Prompt user for push type
 push_type = input(
-    "Enter 'master' to push to master branch or 'gh-pages' to push to gh-pages branch: ")
+    "Enter 'master' to push to master branch or to 'master' and 'gh-pages' to push to gh-pages branch: ")
 
 # Check for presence of package.json file
 if os.path.exists("package.json"):
     # Build with npm
     print("Running npm build to build to ./dist")
     os.system("npm run build")
+    delete_dist_lines()
+    # Commit and push
 
-# Commit and push
 print("github actions")
 os.system(f'git add .')
 os.system(f'git commit -m "{commit_message}"')
@@ -32,3 +43,4 @@ if push_type == "master":
     os.system("git push origin master")
 else:
     os.system("git subtree push --prefix dist origin gh-pages")
+    os.system("git push origin master")

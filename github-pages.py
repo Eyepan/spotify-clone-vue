@@ -25,8 +25,6 @@ if status != 0:
 commit_message = input("Enter a commit message: ")
 
 # Prompt user for push type
-push_type = input(
-    "Enter 'master' to push to master branch or to 'master' and 'gh-pages' to push to gh-pages branch: ")
 
 # Check for presence of package.json file
 if os.path.exists("package.json"):
@@ -37,10 +35,7 @@ if os.path.exists("package.json"):
     # Commit and push
 
 print("github actions")
-os.system(f'git add .')
+os.system('git add .')
 os.system(f'git commit -m "{commit_message}"')
-if push_type == "master":
-    os.system("git push origin master")
-else:
-    os.system("git subtree push --prefix dist origin gh-pages")
-    os.system("git push origin master")
+os.system("git subtree push --prefix dist origin gh-pages")
+os.system("git push origin master")
